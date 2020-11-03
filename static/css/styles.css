@@ -1,0 +1,23 @@
+body {
+  background-color: #dedede;
+}
+
+.progress-bar {
+  font-size: 2rem;
+}
+
+img {
+  width: 300px;
+}
+
+.border-3 {
+border-width: 3px !important;
+}
+
+form {
+  height: 300px;
+}
+
+fieldset {
+  height: 200px
+}
