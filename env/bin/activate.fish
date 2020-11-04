@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/starlightromero/Make-School/flask-django-independent-study/week-3-varsity/env"
+set -gx VIRTUAL_ENV "/Users/starlightromero/Make-School/flask-django-independent-study/flask-voting-app/env"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

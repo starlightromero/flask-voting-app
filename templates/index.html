@@ -29,13 +29,13 @@
   <div class="m-5 d-flex flex-row justify-content-between align-items-center">
 
     <div id="candidate1" class="d-flex flex-column justify-content-center align-items-center">
-      <img id="candidate1_image" alt="candidate1" class="mb-2 rounded border border-light border-3">
+      <img id="candidate1_image" src="{{ url_for('static', filename='images/default.png') }}" alt="candidate1" class="mb-2 rounded border border-light border-3">
       <button class="btn btn-light" type="button" id="vote1">
         Candidate 1
       </button>
     </div>
     <div id="candidate2" class="d-flex flex-column justify-content-center align-items-center">
-      <img id="candidate2_image" alt="candidate2" class="mb-2 rounded border border-dark border-3">
+      <img id="candidate2_image" alt="candidate2" src="{{ url_for('static', filename='images/default.png') }}" class="mb-2 rounded border border-dark border-3">
       <button class="btn btn-dark" type="button" id="vote2">
         Candidate 2
       </button>
